@@ -1,5 +1,5 @@
 const UserProxy = require('../../proxy').User;
-const Models    = require('../../models');
+const Models    = require('../../models/index');
 const UserModel = Models.User;
 
 exports.loginByUserName = function (req, res, next) {
