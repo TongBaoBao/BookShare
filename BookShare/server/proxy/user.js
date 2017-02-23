@@ -1,4 +1,4 @@
-const Models  = require('../models/index');
+const Models  = require('./models/index');
 const User    = Models.User;
 
 exports.getUserByName = function (name, callback) {
