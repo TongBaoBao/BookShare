@@ -17,7 +17,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(cookieParser())
 app.use('/static', express.static(resolve('../src/asserts')))
-// app.use(api)
+app.use(api)
 
 // app.post('/api/setup', function (req, res) {
 //   new db.User(req.body)
