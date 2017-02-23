@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
 // const db = require('./db')
 const resolve = file => path.resolve(__dirname, file)
-// const api = require('./api')
+const api = require('./api_router')
 const app = express()
 
 // const createBundleRenderer = require('vue-server-renderer').createBundleRenderer
