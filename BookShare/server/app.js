@@ -4,7 +4,6 @@ const express = require('express')
 const favicon = require('serve-favicon')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
-// const db = require('./db')
 const resolve = file => path.resolve(__dirname, file)
 const api = require('./api_router')
 const app = express()
@@ -29,7 +28,7 @@ app.use(api)
 //     .catch(() => res.status(500).end())
 // })
 
-app.get('*', function (req, res) {
+app.get('/', function (req, res) {
 //   const fileName = db.initialized ? 'index.html' : 'setup.html'
   const fileName = 'index.html';
   const html = fs.readFileSync(resolve('../' + fileName), 'utf-8')
