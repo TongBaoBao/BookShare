@@ -18,7 +18,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report  
 
-# 入口文件 /server/app.js   
+# 入口文件 /server/app.js    localhost:3000  
 npm start   
 
 # run unit tests
