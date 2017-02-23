@@ -1,4 +1,4 @@
-# bookshare
+# Bookshare
 
 > A Vue.js project By Wang Tong
 
