@@ -5,6 +5,6 @@ const fn = () => {}
 
 const router = express.Router();
 
-router.post("user",userApi.)
+router.post("/api/user",userApi.)
 
 module.exports = router;
