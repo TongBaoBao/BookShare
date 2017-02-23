@@ -1,9 +1,10 @@
 # Bookshare
 
 > A Vue.js project By Wang Tong   
-> 图书共享社区  
+> 一个图书共享社区  
 
-## 主要功能  
+## 主要功能   
+
 
 ## Build Setup
 
