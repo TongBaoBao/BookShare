@@ -1,6 +1,6 @@
 # Bookshare图书共享平台
 
-> A Vue.js project By Wang Tong         
+> A Vue.js project By Wang Tong                  
 > Vue2.1 + Node.js + MongoDB
 
 
@@ -32,5 +32,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
