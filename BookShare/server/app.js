@@ -15,7 +15,7 @@ app.set('port', (process.env.port || 3000))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(cookieParser())
-app.use('/static',express.static(resolve('./src/assets')))
+app.use('/static',express.static(resolve(__dirname+'/src/assets')))
 // app.use(api)
 
 // app.post('/api/setup', function (req, res) {
