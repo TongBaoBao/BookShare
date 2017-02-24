@@ -1,10 +1,11 @@
-# Bookshare
+# Bookshare图书共享平台
 
-> A Vue.js project By Wang Tong   
-> 一个图书共享社区    
->Vue2.1 + Node.js + MongoDB
+> A Vue.js project By Wang Tong      
+> Vue2.1 + Node.js + MongoDB
 
-## 主要功能   
+## 主要功能     
+
+* 用户上传图书信息（图片，名称，文字描述，标注地理位置）进行图书分享
 
 
 ## Build Setup
