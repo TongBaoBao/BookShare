@@ -1,7 +1,7 @@
 # Bookshare图书共享平台
 
 > A Vue.js project By Wang Tong                  
-> Vue2.1 + Node.js + MongoDB
+>Vue2.1 + Node.js + MongoDB
 
 
 ## Build Setup
