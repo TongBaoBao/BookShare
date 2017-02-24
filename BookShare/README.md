@@ -1,7 +1,8 @@
 # Bookshare
 
 > A Vue.js project By Wang Tong   
-> 一个图书共享社区  
+> 一个图书共享社区    
+>Vue2.1 + Node.js + MongoDB
 
 ## 主要功能   
 
