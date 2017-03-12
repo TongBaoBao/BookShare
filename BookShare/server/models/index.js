@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
-const UserSchema = require('./user');
+const init = require('./init.json')
+const UserSchema = require('./user').UserSchema;
 
 const Models = {
-  User: UserSchema,
+  User: mongoose.model('User', UserSchema),
   initialized: false
 }
 
@@ -21,7 +22,7 @@ const initialize = function () {
   })
 }
 
-mongoose.connect('mongodb://127.0.0.1/CMS2')
+mongoose.connect('mongodb://127.0.0.1/BOOKSHARE')
 // mongoose.set('debug', true)
 
 const db = mongoose.connection
